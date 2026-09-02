@@ -17,21 +17,21 @@ Add the final venue, year, DOI, and BibTeX entry when the paper metadata is avai
 The environment follows the package versions used in the related clinical-note repository:
 
 ```text
-Python 3.9.21
-PyTorch 2.8.0
-torchvision 0.23.0
-transformers 4.57.6
-albumentations 2.0.8
-huggingface-hub 0.36.2
-imageio 2.37.0
-numba 0.60.0
-numpy 1.25.2
-pandas 2.2.3
-pillow 11.1.0
-scikit-image 0.24.0
-scikit-learn 1.6.1
-scipy 1.9.3
-timm 1.0.19
+Python==3.9.21
+PyTorch==2.8.0
+torchvision==0.23.0
+transformers==4.57.6
+albumentations==2.0.8
+huggingface-hub==0.36.2
+imageio==2.37.0
+numba==0.60.0
+numpy==1.25.2
+pandas==2.2.3
+pillow==11.1.0
+scikit-image==0.24.0
+scikit-learn==1.6.1
+scipy==1.9.3
+timm==1.0.19
 ```
 
 The Stable Diffusion branch additionally requires `diffusers`, `peft`, `accelerate`, and `safetensors`. The complete Python dependencies are listed in `requirements.txt`.
